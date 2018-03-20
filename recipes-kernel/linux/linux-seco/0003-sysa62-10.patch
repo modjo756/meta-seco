@@ -1,0 +1,13 @@
+Index: git/arch/arm/boot/dts/imx6qdl-seco_lvds_display.dtsi
+===================================================================
+--- git.orig/arch/arm/boot/dts/imx6qdl-seco_lvds_display.dtsi
++++ git/arch/arm/boot/dts/imx6qdl-seco_lvds_display.dtsi
+@@ -2,7 +2,7 @@
+ 	status = "okay";
+ 	lvds-channel@0 {
+ 		reg = <0>;
+-		fsl,data-mapping = "jeida";
++		fsl,data-mapping = "spwg";
+ 		fsl,data-width = <24>;
+ 		status = "okay";
+ 		primary;

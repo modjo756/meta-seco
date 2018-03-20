@@ -1,0 +1,17 @@
+Index: samba-4.4.2/packaging/sysv/samba.init
+===================================================================
+--- samba-4.4.2.orig/packaging/sysv/samba.init
++++ samba-4.4.2/packaging/sysv/samba.init
+@@ -10,9 +10,9 @@ then                    # /usr not mount
+ fi
+ 
+ killproc() {            # kill the named process(es)
+-        pid=`/usr/bin/ps -e |
+-             /usr/bin/grep -w $1 |
+-             /usr/bin/sed -e 's/^  *//' -e 's/ .*//'`
++        pid=`/bin/ps -e |
++             /bin/grep -w $1 |
++             /bin/sed -e 's/^  *//' -e 's/ .*//'`
+         [ "$pid" != "" ] && kill $pid
+ }
+ 

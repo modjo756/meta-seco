@@ -1,0 +1,13 @@
+diff --git a/psplash-config.h b/psplash-config.h
+index 82bb76d..625b6cd 100644
+--- a/psplash-config.h
++++ b/psplash-config.h
+@@ -20,7 +20,7 @@
+ #define _HAVE_PSPLASH_CONFIG_H
+ 
+ /* Text to output on program start; if undefined, output nothing */
+-#define PSPLASH_STARTUP_MSG ""
++#define PSPLASH_STARTUP_MSG "System booting ..."
+ 
+ /* Bool indicating if the image is fullscreen, as opposed to split screen */
+ #define PSPLASH_IMG_FULLSCREEN 0
