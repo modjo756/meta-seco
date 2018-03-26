@@ -103,11 +103,12 @@ export QT_QPA_EGLFS_PHYSICAL_WIDTH=152
 #export QT_QPA_EGLFS_PHYSICAL_WIDTH=217
 
 #export for touch 7 inch neo
-export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event0
+#export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event0
 
 #size of 10.1" screen (sysA62-10/waveshare) in mmillimeters
-#export QT_QPA_EGLFS_PHYSICAL_HEIGHT=136
-#export QT_QPA_EGLFS_PHYSICAL_WIDTH=217
+export QT_QPA_EGLFS_PHYSICAL_HEIGHT=136
+export QT_QPA_EGLFS_PHYSICAL_WIDTH=217
+export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event4
 
 
 
