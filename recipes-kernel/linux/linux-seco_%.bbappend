@@ -5,6 +5,6 @@ SRC_URI = "\
            file://defconfig \
            file://defconfig_original \
            file://0001-kernel-add-support-for-gcc7.patch \
-           file://0002-add-goodix928.patch \
            file://0003-sysa62-10.patch \
+           file://0004-config_GPIO.patch \
            "

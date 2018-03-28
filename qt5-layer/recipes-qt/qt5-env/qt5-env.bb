@@ -44,7 +44,7 @@ EOF
 # such defaults.
 export QT_QPA_EGLFS_PHYSICAL_HEIGHT=135
 export QT_QPA_EGLFS_PHYSICAL_WIDTH=215
-export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event4
+export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event1
 EOF
     else
             cat >> ${D}${sysconfdir}/profile.d/qt5-env.sh <<EOF

@@ -1,0 +1,90 @@
+Index: git/arch/arm/boot/dts/imx6qdl-seco_SBC_A62_J8_conf.dtsi
+===================================================================
+--- git.orig/arch/arm/boot/dts/imx6qdl-seco_SBC_A62_J8_conf.dtsi
++++ git/arch/arm/boot/dts/imx6qdl-seco_SBC_A62_J8_conf.dtsi
+@@ -12,4 +12,85 @@
+ 
+ 
+ 
++&ecspi2 {
++	status = "okay";
++};
++
++
++
++
++&can1 {
++	status = "okay";
++};
++
++
++
++
++&uart4 {
++	pinctrl-0     = <&pinctrl_j8_port4_2>;
++	status        = "okay";
++};
++
++
++
++
++&i2c1 {
++	status = "okay";
++};
++
++
++
++
++&pwm2 {
++	status = "okay";
++};
++
++
++
++
++&pwm3 {
++	status = "okay";
++};
++
++
++
++
++&uart1 {
++	fsl,rs485-mode;
++	rs485-cts-gpio = <&gpio3 20 0>;
++	status = "okay";
++};
++
++
++
++
++&uart5 {
++	pinctrl-0     = <&pinctrl_j8_port5_2>;
++	status        = "okay";
++};
++
++
++
++
++&can2 {
++	status = "okay";
++};
++
++
++
++
++&iomuxc {
++
++pinctrl-0 = <&pinctrl_hog
++
++&pinctrl_j8_port1_gpio
++
++&pinctrl_j8_port5_gpio1B
++
++&pinctrl_j8_port6_gpio4A
++
++&pinctrl_j8_port7_gpio
++
++>;
++};
+ 

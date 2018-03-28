@@ -108,7 +108,7 @@ export QT_QPA_EGLFS_PHYSICAL_WIDTH=152
 #size of 10.1" screen (sysA62-10/waveshare) in mmillimeters
 export QT_QPA_EGLFS_PHYSICAL_HEIGHT=136
 export QT_QPA_EGLFS_PHYSICAL_WIDTH=217
-export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event4
+export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS=/dev/input/event1
 
 
 
